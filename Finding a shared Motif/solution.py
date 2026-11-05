@@ -4,7 +4,7 @@ def liste_seq():
     unabhängig von Zeilenzahlen oder Umbrüchen.
     '''
     sequenzen = []
-    with open("fasta.txt", "r", encoding="utf-8") as file:
+    with open("sample_input.txt", "r", encoding="utf-8") as file:
         zeile=file.readlines()
         sequenzen=[]
         string="" #hier speichern wir die Sequenzen zwischen
